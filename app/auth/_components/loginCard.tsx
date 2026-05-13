@@ -27,9 +27,9 @@ export default function LoginForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="bg-primary-foreground flex h-full w-full flex-col justify-center gap-4 rounded border p-12"
+      className="flex h-full w-full flex-col justify-center gap-4 p-12"
     >
-      <h2>DBM Hub</h2>
+      <h2 className="mb-20 text-center text-4xl font-bold">DBM Hub</h2>
       <div className="flex flex-col gap-3">
         <label htmlFor="login-email" className="text-xs font-bold">
           E-mail
